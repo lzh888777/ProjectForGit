@@ -20,6 +20,7 @@
 		D77C7FBF19BF106D0055D15F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D77C7FBD19BF106D0055D15F /* InfoPlist.strings */; };
 		D77C7FC119BF106D0055D15F /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D77C7FC019BF106D0055D15F /* __Tests.m */; };
 		D77C7FCC19BF10A10055D15F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77C7FCB19BF10A10055D15F /* MainViewController.m */; };
+		D77C7FCF19BF11770055D15F /* Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = D77C7FCE19BF11770055D15F /* Dock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D77C7FC019BF106D0055D15F /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
 		D77C7FCA19BF10A10055D15F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D77C7FCB19BF10A10055D15F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D77C7FCD19BF11770055D15F /* Dock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dock.h; sourceTree = "<group>"; };
+		D77C7FCE19BF11770055D15F /* Dock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				D77C7FAB19BF106D0055D15F /* AppDelegate.m */,
 				D77C7FCA19BF10A10055D15F /* MainViewController.h */,
 				D77C7FCB19BF10A10055D15F /* MainViewController.m */,
+				D77C7FCD19BF11770055D15F /* Dock.h */,
+				D77C7FCE19BF11770055D15F /* Dock.m */,
 				D77C7FAD19BF106D0055D15F /* Images.xcassets */,
 				D77C7FA219BF106D0055D15F /* Supporting Files */,
 			);
@@ -246,6 +251,7 @@
 			files = (
 				D77C7FAC19BF106D0055D15F /* AppDelegate.m in Sources */,
 				D77C7FCC19BF10A10055D15F /* MainViewController.m in Sources */,
+				D77C7FCF19BF11770055D15F /* Dock.m in Sources */,
 				D77C7FA819BF106D0055D15F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
